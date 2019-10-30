@@ -1,0 +1,17 @@
+smaller_series(series, dtype='auto')
+    series: pandas Series
+    dtype:
+    
+
+smaller_column(df, column_name, *args, **kwargs)
+    '''df = smaller_column(df, 'name') is same as df = smaller_df(df, subset=['name'])
+    df = pandas DataFrame
+    column_name(str)
+    *args, **kwargs to smaller_series
+    
+
+smaller_df(df, subset=None, dtypes=None)
+    df: pandas dataframe
+    subset: list of columns
+    RETURNS: df
+    
